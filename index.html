@@ -9,7 +9,7 @@
 <meta property="og:description" content="Una vitrina de pensamiento sobre Growth, estrategia, marketing, producto, experiencia de cliente, tecnología y negocio.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#0b3546">
-<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Qm6cHvdy2gGBmK9uciUgNfpDZh9kVygRjtjsnyiX8ZbVEY8YUaA5cRcAlrmViHRxaWkyZq2KCFpP1qqdaCeLb-GEmdjkUHcMZ6ajr4no_u4Wi0cDWCXEN8sdibCsRi_7buLM93gwpMagHHBtacYPW6PuQjeiGDpVnNW_WMRV71241peBQBnflX6JbducgbpGS8za5JMMege-rWRowrrVELhabOUuwkSTmHrnhkymOKexidZCvOvzX3FCt3S5P2c-96a2ul_DO_1mQjAoKSgOltcgNXuSpsTKV-uiZnNSchKsa--_CDK0hFNaLKD9swDj" charset="UTF-8"></script><style>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=oguaVlZsXE8kLjIxXq_Z7kptFV9nk6aaIdd27Q90BA3W9yBb_Q8S9HtaeIv19ZS1saMesbKsnMx06X6vzYs2o2JJD9z6z4mah1-7r5_Wz_SmyknrP1DLykgYQlYT20YNsU8nCTOx9VMLn33JOjVUblwWwTXeotMbgblob3A3naFRVz-kRz1CtZe4EdgroY7NzGayS8PvvjcOauXSaMhu9qzhlFsO4CWtAbGj0EygJdFULAA_8C_ISJsglTNDLn0zVzIoygiUkJnGllYjj7avKVAgM48GGf0taaL-kIpvqAC_NbKqZEnOEOKXzIzKYu8Z" charset="UTF-8"></script><style>
 :root{
   --ink:#102029;--paper:#edf3f2;--white:#f5f8f7;--muted:#8ea4ad;
   --sky:#dceff2;--sea:#16647c;--blue:#0a4057;--deep:#062b3b;--abyss:#031a27;
@@ -20,7 +20,7 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.45}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.45;-webkit-text-size-adjust:100%;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 :focus-visible{outline:2px solid var(--accent);outline-offset:5px}
 .wrap{width:min(var(--max),calc(100% - 44px));margin:auto}
@@ -42,7 +42,7 @@ nav{
 
 /* SURFACE */
 .hero{
-  min-height:100svh;display:flex;align-items:center;padding:125px 0 150px;color:var(--white);
+  min-height:100vh;min-height:100svh;display:flex;align-items:center;padding:125px 0 150px;color:var(--white);
   position:relative;overflow:hidden
 }
 .hero .scene-photo{
@@ -65,7 +65,7 @@ nav{
 .surface-caption{position:absolute;bottom:28px;left:0;right:0;z-index:3;display:flex;justify-content:space-between;color:rgba(245,248,247,.7);font-size:9px;letter-spacing:.15em;text-transform:uppercase}
 
 /* WATER ENTRY */
-.entry{min-height:115vh;color:var(--white);position:relative;overflow:hidden}
+.entry{min-height:100vh;min-height:115vh;color:var(--white);position:relative;overflow:hidden}
 .entry .scene-photo{
   background-image:url("https://commons.wikimedia.org/wiki/Special:Redirect/file/NOAA_diver_photographing_reef_Tutuila_2023.png");
   background-position:center 48%;
@@ -76,7 +76,7 @@ nav{
     linear-gradient(180deg,rgba(5,54,73,.36),rgba(4,38,53,.55) 35%,rgba(2,25,36,.78) 100%),
     linear-gradient(90deg,rgba(2,30,42,.42),transparent 58%,rgba(2,26,37,.45));
 }
-.entry-grid{min-height:115vh;display:grid;grid-template-columns:.72fr 1.28fr;gap:80px;align-items:center;padding:100px 0}
+.entry-grid{min-height:100vh;min-height:115vh;display:grid;grid-template-columns:.72fr 1.28fr;gap:80px;align-items:center;padding:100px 0}
 .depth-index{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#c2d8db;align-self:start;padding-top:20px}
 .quote{font-size:clamp(38px,5.4vw,76px);line-height:.91;letter-spacing:-.068em;max-width:760px;margin:0}
 .entry-copy{font-size:18px;color:#c4d8dc;max-width:390px;margin:38px 0 0}
@@ -149,7 +149,7 @@ nav{
 
 /* BASE / HOW I THINK — ONE DEEP ECOSYSTEM */
 .base{
-  min-height:108vh;position:relative;color:var(--white);padding:125px 0 120px;overflow:hidden;
+  min-height:100vh;min-height:108vh;position:relative;color:var(--white);padding:125px 0 120px;overflow:hidden;
   background:
     linear-gradient(180deg,rgba(2,23,34,.38) 0%,rgba(2,18,28,.50) 35%,rgba(3,17,25,.64) 70%,rgba(31,68,76,.48) 88%,rgba(111,164,173,.30) 100%),
     url("https://commons.wikimedia.org/wiki/Special:Redirect/file/Octopus_at_Kelly_Tarlton%27s.jpg") center 42%/cover no-repeat;
@@ -192,12 +192,13 @@ nav{
 
 /* RESPONSIVE */
 @media(max-width:820px){
+  html,body{width:100%;max-width:100%;overflow-x:hidden}
   .wrap{width:min(var(--max),calc(100% - 34px))}
   nav{height:66px}.navlinks{gap:14px}
   .hero{padding:115px 0 120px;min-height:100svh}.hero-grid,.entry-grid,.section-head,.base-grid,.contact-grid{grid-template-columns:1fr;gap:40px}
   .hero-note{margin-left:16%;max-width:280px}
   .surface-caption{font-size:8px}
-  .entry-grid{min-height:115vh;padding:100px 0}.depth-index{padding-top:0}
+  .entry-grid{min-height:100vh;min-height:115vh;padding:100px 0}.depth-index{padding-top:0}
   .entry-copy{margin-left:16%}
   .section-head{margin-bottom:65px}
   .finding,.finding:nth-child(even){grid-template-columns:35px 1fr;gap:15px;padding:35px 0;min-height:0;margin-bottom:35px}
