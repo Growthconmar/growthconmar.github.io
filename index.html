@@ -9,7 +9,7 @@
 <meta property="og:description" content="Una vitrina de pensamiento sobre Growth, estrategia, marketing, producto, experiencia de cliente, tecnología y negocio.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#0b3546">
-<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Am7jmzWpbqOeO0wQXAFfhlWC5m5XJndwv_Ka-E1nUTl6UQnOuN6EQqs0XJnKHm4QAQTs60p9RcSvHi7XNJRsyqA3aR7Xk0vh2JpAOF1-VZdBOscHw9SzOGPH8NqLlHBoj5WJmy2ePm0P80F72_VscasQuyYK-rjfO56Y8-piUwX3O8ALISz3f_Y2trvzRtncQoZZ-uXiLpnN1xiqrslhSYHThEHRUpy9fpdnh_1f4nSuVdATHc-8TpMUJvuIwkS5CjqbKEx2BwX-oD602jJA1MrbcRWNQoIFDGtoM976INWYyFDXZA-hurXhk58UmY5h" charset="UTF-8"></script><style>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=QBJFQ_WJbwG-pgdx_LWXfGM12s8JYcWjHOhEUnPJK9f9UfECnH1a5DxPDDRFCRlCA-o2w6TITsOj0okTh1ppYoTQc_Y_SMxHTT80tCjNc9ebrGQj-R4avrIgbP5aGAn5QbOo-aMgP3FNOem6sbgoAwyn8FUyFvzTQCimOHaK3e6Ij16LaQazzJVoM1HMGOeuF2aFuXt5Br4a87S3Hwcbhxit50RvkYabzlMgtCna6ODkfioraYQQMi8muxfCp_ssXw3-d4jKwCvjuuEbJMCgauVS9tHpepEtSNbJYL047H6ORegaBNe7vbPuO23diWQxq28DVkryFz-JnkNHP4NBHw" charset="UTF-8"></script><style>
 :root{
   --ink:#102029;--paper:#edf3f2;--white:#f5f8f7;--muted:#8ea4ad;
   --sky:#dceff2;--sea:#16647c;--blue:#0a4057;--deep:#062b3b;--abyss:#031a27;
@@ -36,17 +36,17 @@ nav{
 /* ONE CONTINUOUS MARINE LANDSCAPE */
 .ocean{position:relative;background:var(--abyss);overflow:hidden}
 .scene{position:relative;isolation:isolate}
-.scene-photo{position:absolute;inset:0;z-index:0;background-position:center;background-size:cover;background-repeat:no-repeat}
-.scene-shade{position:absolute;inset:0;z-index:1;pointer-events:none}
+.scene-photo{position:absolute;inset:0;z-index:-2;background-position:center;background-size:cover;background-repeat:no-repeat}
+.scene-shade{position:absolute;inset:0;z-index:-1;pointer-events:none}
 .scene-copy{position:relative;z-index:2}
 
 /* SURFACE */
 .hero{
-  min-height:100vh;min-height:100svh;display:flex;align-items:center;padding:125px 0 150px;color:var(--white);
+  min-height:100svh;display:flex;align-items:center;padding:125px 0 150px;color:var(--white);
   position:relative;overflow:hidden
 }
 .hero .scene-photo{
-  background-image:url("https://commons.wikimedia.org/wiki/Special:Redirect/file/Ocean_surface_wave.jpg");
+  background-image:linear-gradient(180deg,#6faeb8 0%,#246579 48%,#082f43 100%);
   background-position:center 56%;
   filter:saturate(.82) contrast(1.02);
 }
@@ -67,7 +67,7 @@ nav{
 /* WATER ENTRY */
 .entry{min-height:115vh;color:var(--white);position:relative;overflow:hidden}
 .entry .scene-photo{
-  background-image:url("https://commons.wikimedia.org/wiki/Special:Redirect/file/NOAA_diver_photographing_reef_Tutuila_2023.png");
+  background-image:linear-gradient(180deg,#4f9cad 0%,#126078 45%,#062c40 100%);
   background-position:center 48%;
   filter:saturate(.82) contrast(1.02);
 }
@@ -98,10 +98,10 @@ nav{
 .eco-photo{
   position:absolute;inset:8% 0 0;z-index:-2;background:
     linear-gradient(180deg,rgba(4,44,59,.2),rgba(2,27,40,.74)),
-    url("https://commons.wikimedia.org/wiki/Special:Redirect/file/Chromis_reef_fish_and_staghorn_coral_underwater_scenic.jpg") center 40%/cover no-repeat;
+    linear-gradient(180deg,#16718a 0%,#07506a 45%,#04283a 100%);
   opacity:.64;
 }
-.eco-atmosphere{position:absolute;inset:0;z-index:1;background:
+.eco-atmosphere{position:absolute;inset:0;z-index:-1;background:
   radial-gradient(circle at 17% 25%,rgba(214,243,243,.16) 0 1px,transparent 2px),
   radial-gradient(circle at 65% 36%,rgba(214,243,243,.13) 0 1px,transparent 2px),
   radial-gradient(circle at 83% 61%,rgba(214,243,243,.12) 0 1px,transparent 2px),
@@ -136,12 +136,12 @@ nav{
 }
 .finding-image:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(1,18,26,.55))}
 .finding-image a{position:absolute;right:16px;bottom:15px;z-index:2;color:#f1f7f6;font-size:10px;letter-spacing:.12em;text-transform:uppercase}
-.image-1{background-image:url("https://greenpeace.at/uploads/2024/12/ueberfischung.jpg");background-position:center 46%}
-.image-2{background-image:url("https://cff2.earth.com/uploads/2017/09/31141120/Scientists-team-up-to-save-coral-reefs-from-climate-change.jpg");background-position:center 44%}
-.image-3{background-image:url("https://images.unsplash.com/photo-1753328603661-fc7af04147e4?auto=format&fit=crop&fm=jpg&q=85&w=2200");background-position:center 42%}
-.image-4{background-image:url("https://commons.wikimedia.org/wiki/Special:Redirect/file/NOAA_diver_measures_coral_Rose_Atoll_2023.png");background-position:center 48%}
-.image-5{background-image:url("https://images.unsplash.com/photo-1743656620385-5afe20b69b9d?auto=format&fit=crop&fm=jpg&q=85&w=1800");background-position:center 42%}
-.image-6{background-image:url("https://images.unsplash.com/photo-1702722710064-02a7d4730197?auto=format&fit=crop&fm=jpg&q=85&w=1200");background-position:center 50%}
+.image-1{background-image:linear-gradient(135deg,#123f52,#08758a,#062c3c);background-position:center 46%}
+.image-2{background-image:linear-gradient(135deg,#0d6678,#168ca0,#063348);background-position:center 44%}
+.image-3{background-image:linear-gradient(135deg,#0b4e67,#1591a1,#063047);background-position:center 42%}
+.image-4{background-image:linear-gradient(135deg,#145b70,#247f91,#062f42);background-position:center 48%}
+.image-5{background-image:linear-gradient(135deg,#0d5369,#6faeb7,#123d51);background-position:center 42%}
+.image-6{background-image:linear-gradient(135deg,#0a4057,#8abcc1,#183f4d);background-position:center 50%}
 .deep-statement{
   margin:100px auto 50px;max-width:760px;text-align:center;font-size:clamp(32px,4.5vw,60px);
   line-height:.98;letter-spacing:-.06em
@@ -149,14 +149,14 @@ nav{
 
 /* BASE / HOW I THINK — ONE DEEP ECOSYSTEM */
 .base{
-  min-height:100vh;min-height:108vh;position:relative;color:var(--white);padding:125px 0 120px;overflow:hidden;
+  min-height:108vh;position:relative;color:var(--white);padding:125px 0 120px;overflow:hidden;
   background:
     linear-gradient(180deg,rgba(2,23,34,.38) 0%,rgba(2,18,28,.50) 35%,rgba(3,17,25,.64) 70%,rgba(31,68,76,.48) 88%,rgba(111,164,173,.30) 100%),
-    url("https://commons.wikimedia.org/wiki/Special:Redirect/file/Octopus_at_Kelly_Tarlton%27s.jpg") center 42%/cover no-repeat;
+    linear-gradient(180deg,#073e55 0%,#062d42 45%,#031927 100%);
   isolation:isolate
 }
 .base:after{
-  content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
   background:
     linear-gradient(180deg,rgba(7,64,82,.10),transparent 32%,rgba(2,18,27,.30) 76%,rgba(196,225,226,.28) 100%),
     radial-gradient(circle at 75% 35%,rgba(216,244,242,.12),transparent 34%);
@@ -192,7 +192,6 @@ nav{
 
 /* RESPONSIVE */
 @media(max-width:820px){
-  html,body{width:100%;max-width:100%;overflow-x:hidden}
   .wrap{width:min(var(--max),calc(100% - 34px))}
   nav{height:66px}.navlinks{gap:14px}
   .hero{padding:115px 0 120px;min-height:100svh}.hero-grid,.entry-grid,.section-head,.base-grid,.contact-grid{grid-template-columns:1fr;gap:40px}
