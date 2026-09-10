@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mariana Rodríguez — Growth · Strategy · Marketing · Business</title>
+<meta name="description" content="Mariana Rodríguez analiza negocios, experiencias, estrategias y productos desde la superficie hasta el sistema que los sostiene.">
+<meta property="og:title" content="Mariana Rodríguez — Growth · Strategy · Marketing · Business">
+<meta property="og:description" content="Una vitrina de pensamiento sobre Growth, estrategia, marketing, producto, experiencia de cliente, tecnología y negocio.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0b3546">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Qm6cHvdy2gGBmK9uciUgNfpDZh9kVygRjtjsnyiX8ZbVEY8YUaA5cRcAlrmViHRxaWkyZq2KCFpP1qqdaCeLb-GEmdjkUHcMZ6ajr4no_u4Wi0cDWCXEN8sdibCsRi_7buLM93gwpMagHHBtacYPW6PuQjeiGDpVnNW_WMRV71241peBQBnflX6JbducgbpGS8za5JMMege-rWRowrrVELhabOUuwkSTmHrnhkymOKexidZCvOvzX3FCt3S5P2c-96a2ul_DO_1mQjAoKSgOltcgNXuSpsTKV-uiZnNSchKsa--_CDK0hFNaLKD9swDj" charset="UTF-8"></script><style>
+:root{
+  --ink:#102029;--paper:#edf3f2;--white:#f5f8f7;--muted:#8ea4ad;
+  --sky:#dceff2;--sea:#16647c;--blue:#0a4057;--deep:#062b3b;--abyss:#031a27;
+  --sand:#9d8e70;--line:rgba(245,248,247,.24);--darkline:rgba(16,32,41,.15);
+  --accent:#d5e96b;--max:1180px;
+  --sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --serif:Georgia,"Times New Roman",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.45}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:5px}
+.wrap{width:min(var(--max),calc(100% - 44px));margin:auto}
+nav{
+  position:absolute;top:0;left:0;right:0;height:74px;z-index:20;
+  display:flex;align-items:center;justify-content:space-between;
+  color:#f5f8f7;font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  mix-blend-mode:normal
+}
+.mark{font-size:17px;font-weight:800;letter-spacing:-.08em;text-transform:none}
+.navlinks{display:flex;gap:28px}.navlinks a{opacity:.78}.navlinks a:hover{opacity:1}
+
+/* ONE CONTINUOUS MARINE LANDSCAPE */
+.ocean{position:relative;background:var(--abyss);overflow:hidden}
+.scene{position:relative;isolation:isolate}
+.scene-photo{position:absolute;inset:0;z-index:-2;background-position:center;background-size:cover;background-repeat:no-repeat}
+.scene-shade{position:absolute;inset:0;z-index:-1;pointer-events:none}
+.scene-copy{position:relative;z-index:2}
+
+/* SURFACE */
+.hero{
+  min-height:100svh;display:flex;align-items:center;padding:125px 0 150px;color:var(--white);
+  position:relative;overflow:hidden
+}
+.hero .scene-photo{
+  background-image:url("https://commons.wikimedia.org/wiki/Special:Redirect/file/Ocean_surface_wave.jpg");
+  background-position:center 56%;
+  filter:saturate(.82) contrast(1.02);
+}
+.hero .scene-shade{
+  background:
+    linear-gradient(90deg,rgba(4,24,32,.63) 0%,rgba(4,24,32,.26) 54%,rgba(4,24,32,.04) 100%),
+    linear-gradient(180deg,rgba(0,20,29,.32),transparent 35%,rgba(3,23,31,.5) 100%);
+}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:90px;align-items:end}
+.eyebrow{font-size:10px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:30px;opacity:.8}
+.hero h1{font-size:clamp(54px,8.4vw,112px);line-height:.87;letter-spacing:-.085em;font-weight:620;max-width:900px;margin:0 0 35px}
+.hero h1 em,.quote em,.deep-title em,.base-title em,.contact h2 em{font-family:var(--serif);font-weight:400}
+.hero-intro{font-size:clamp(19px,2.1vw,25px);line-height:1.14;letter-spacing:-.035em;max-width:600px;margin:0}
+.hero-note{max-width:300px;font-size:12px;color:#d9e7e8;padding-bottom:5px}
+.hero-note strong{display:block;font-size:10px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:12px}
+.surface-caption{position:absolute;bottom:28px;left:0;right:0;z-index:3;display:flex;justify-content:space-between;color:rgba(245,248,247,.7);font-size:9px;letter-spacing:.15em;text-transform:uppercase}
+
+/* WATER ENTRY */
+.entry{min-height:115vh;color:var(--white);position:relative;overflow:hidden}
+.entry .scene-photo{
+  background-image:url("https://commons.wikimedia.org/wiki/Special:Redirect/file/NOAA_diver_photographing_reef_Tutuila_2023.png");
+  background-position:center 48%;
+  filter:saturate(.82) contrast(1.02);
+}
+.entry .scene-shade{
+  background:
+    linear-gradient(180deg,rgba(5,54,73,.36),rgba(4,38,53,.55) 35%,rgba(2,25,36,.78) 100%),
+    linear-gradient(90deg,rgba(2,30,42,.42),transparent 58%,rgba(2,26,37,.45));
+}
+.entry-grid{min-height:115vh;display:grid;grid-template-columns:.72fr 1.28fr;gap:80px;align-items:center;padding:100px 0}
+.depth-index{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#c2d8db;align-self:start;padding-top:20px}
+.quote{font-size:clamp(38px,5.4vw,76px);line-height:.91;letter-spacing:-.068em;max-width:760px;margin:0}
+.entry-copy{font-size:18px;color:#c4d8dc;max-width:390px;margin:38px 0 0}
+.light-rays{position:absolute;top:0;left:0;right:0;height:45%;background:
+  linear-gradient(116deg,transparent 0 34%,rgba(220,245,249,.13) 35%,transparent 52%),
+  linear-gradient(72deg,transparent 0 54%,rgba(220,245,249,.09) 55%,transparent 69%);
+  opacity:.8;mix-blend-mode:screen;pointer-events:none}
+
+/* MID WATER / ECOSYSTEM */
+.ecosystem{
+  position:relative;color:var(--white);padding:80px 0 145px;
+  background:#063347;overflow:hidden
+}
+.ecosystem:before{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,#0a4660 0%,#07384e 38%,#05283a 72%,#041f2e 100%);
+  z-index:-3
+}
+.eco-photo{
+  position:absolute;inset:8% 0 0;z-index:-2;background:
+    linear-gradient(180deg,rgba(4,44,59,.2),rgba(2,27,40,.74)),
+    url("https://commons.wikimedia.org/wiki/Special:Redirect/file/Chromis_reef_fish_and_staghorn_coral_underwater_scenic.jpg") center 40%/cover no-repeat;
+  opacity:.64;
+}
+.eco-atmosphere{position:absolute;inset:0;z-index:-1;background:
+  radial-gradient(circle at 17% 25%,rgba(214,243,243,.16) 0 1px,transparent 2px),
+  radial-gradient(circle at 65% 36%,rgba(214,243,243,.13) 0 1px,transparent 2px),
+  radial-gradient(circle at 83% 61%,rgba(214,243,243,.12) 0 1px,transparent 2px),
+  linear-gradient(180deg,transparent,rgba(1,17,26,.22) 70%);
+  background-size:170px 210px,240px 270px,190px 250px,100% 100%;
+  pointer-events:none
+}
+.section-head{display:grid;grid-template-columns:.7fr 1.3fr;gap:60px;align-items:end;margin-bottom:100px}
+.depth-index.dark{color:#b9d1d6}.section-head h2{font-size:clamp(48px,7vw,92px);line-height:.84;letter-spacing:-.08em;font-weight:600;margin:0}
+.section-head p{font-size:17px;color:#b8ccd1;max-width:420px;margin:0}
+
+/* PERSPECTIVES ARE EMBEDDED IN THE SCENE */
+.findings{position:relative}
+.finding{
+  min-height:330px;display:grid;grid-template-columns:58px minmax(0,1fr) minmax(250px,.55fr);
+  gap:28px;align-items:center;margin:0 0 55px;padding:50px 0;
+  position:relative
+}
+.finding:nth-child(even){grid-template-columns:minmax(250px,.55fr) 58px minmax(0,1fr)}
+.finding:nth-child(even) .finding-copy{grid-column:3;grid-row:1}
+.finding:nth-child(even) .finding-image{grid-column:1;grid-row:1}
+.finding-number{font-size:10px;letter-spacing:.17em;color:#a7c0c5;align-self:start;padding-top:8px}
+.finding-copy{position:relative;z-index:2}
+.finding-company{display:inline-block;margin:0 0 14px;color:#dbe9e8;font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;opacity:.92}
+.finding-company:hover{opacity:1}
+.finding h3{font-family:var(--serif);font-weight:400;font-size:clamp(36px,4.15vw,58px);line-height:.97;letter-spacing:-.045em;margin:0 0 18px;max-width:660px}
+.finding p{font-size:16px;line-height:1.48;color:#b9ccd0;max-width:520px;margin:0}
+.finding-image{
+  min-height:270px;position:relative;overflow:hidden;
+  background-position:center;background-size:cover;
+  box-shadow:0 30px 80px rgba(0,0,0,.18)
+}
+.finding-image:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(1,18,26,.55))}
+.finding-image a{position:absolute;right:16px;bottom:15px;z-index:2;color:#f1f7f6;font-size:10px;letter-spacing:.12em;text-transform:uppercase}
+.image-1{background-image:url("https://greenpeace.at/uploads/2024/12/ueberfischung.jpg");background-position:center 46%}
+.image-2{background-image:url("https://cff2.earth.com/uploads/2017/09/31141120/Scientists-team-up-to-save-coral-reefs-from-climate-change.jpg");background-position:center 44%}
+.image-3{background-image:url("https://images.unsplash.com/photo-1753328603661-fc7af04147e4?auto=format&fit=crop&fm=jpg&q=85&w=2200");background-position:center 42%}
+.image-4{background-image:url("https://commons.wikimedia.org/wiki/Special:Redirect/file/NOAA_diver_measures_coral_Rose_Atoll_2023.png");background-position:center 48%}
+.image-5{background-image:url("https://images.unsplash.com/photo-1743656620385-5afe20b69b9d?auto=format&fit=crop&fm=jpg&q=85&w=1800");background-position:center 42%}
+.image-6{background-image:url("https://images.unsplash.com/photo-1702722710064-02a7d4730197?auto=format&fit=crop&fm=jpg&q=85&w=1200");background-position:center 50%}
+.deep-statement{
+  margin:100px auto 50px;max-width:760px;text-align:center;font-size:clamp(32px,4.5vw,60px);
+  line-height:.98;letter-spacing:-.06em
+}
+
+/* BASE / HOW I THINK — ONE DEEP ECOSYSTEM */
+.base{
+  min-height:108vh;position:relative;color:var(--white);padding:125px 0 120px;overflow:hidden;
+  background:
+    linear-gradient(180deg,rgba(2,23,34,.38) 0%,rgba(2,18,28,.50) 35%,rgba(3,17,25,.64) 70%,rgba(31,68,76,.48) 88%,rgba(111,164,173,.30) 100%),
+    url("https://commons.wikimedia.org/wiki/Special:Redirect/file/Octopus_at_Kelly_Tarlton%27s.jpg") center 42%/cover no-repeat;
+  isolation:isolate
+}
+.base:after{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:
+    linear-gradient(180deg,rgba(7,64,82,.10),transparent 32%,rgba(2,18,27,.30) 76%,rgba(196,225,226,.28) 100%),
+    radial-gradient(circle at 75% 35%,rgba(216,244,242,.12),transparent 34%);
+}
+.base-content{position:relative;z-index:2}
+.base-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:80px;align-items:end}
+.base-title{font-size:clamp(52px,7.3vw,98px);line-height:.84;letter-spacing:-.085em;font-weight:600;margin:0;text-shadow:0 2px 28px rgba(0,0,0,.20)}
+.base-copy{font-size:clamp(25px,3.15vw,42px);line-height:1.01;letter-spacing:-.05em;max-width:650px;margin:0;text-shadow:0 2px 22px rgba(0,0,0,.18)}
+.thinking{position:relative;z-index:3;margin:150px 0 0 auto;max-width:790px;border-top:1px solid rgba(245,248,247,.34);padding:28px 0 88px;color:#dbe7e5}
+.thinking strong{display:block;color:#fff;font-size:11px;letter-spacing:.17em;text-transform:uppercase;margin-bottom:18px}
+.thinking-copy{max-width:720px;font-size:clamp(22px,2.5vw,34px);line-height:1.04;letter-spacing:-.04em;margin:0 0 34px;color:#f7fbfa}
+.steps{display:flex;flex-wrap:wrap;gap:10px 28px;font-family:var(--serif);font-size:clamp(21px,2.2vw,29px);line-height:1.05;color:#d3e1df}
+.steps span{display:block}.steps span:after{content:"";display:inline-block;width:4px;height:4px;border-radius:50%;background:rgba(245,248,247,.48);margin:0 0 5px 26px}
+.steps span:last-child:after{display:none}
+.profile-strip{margin-top:10px;display:flex;flex-wrap:wrap;gap:8px 20px;color:#b9cdcd;font-size:10px;letter-spacing:.12em;text-transform:uppercase}
+.profile-strip strong{color:#fff}
+
+/* CONTACT / EMERGING — GENTLE RETURN TO THE SURFACE */
+.contact{
+  position:relative;overflow:hidden;color:var(--ink);padding:0 0 45px;
+  background:linear-gradient(180deg,#123f52 0%,#285f70 10%,#76aeb8 27%,#b9dadd 48%,#dcebec 70%,#edf3f2 100%);
+}
+.contact:before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:
+    linear-gradient(180deg,rgba(244,250,249,.02),rgba(238,247,246,.18) 42%,rgba(237,243,242,.34) 82%,rgba(237,243,242,.7) 100%);
+}
+.contact-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.25fr .75fr;gap:80px;align-items:end;padding-top:105px}
+.contact-eyebrow{color:#183b47 !important}
+.contact h2{font-size:clamp(54px,7.4vw,100px);line-height:.84;letter-spacing:-.08em;font-weight:600;margin:0;max-width:850px}
+.links{display:grid}.links a{display:flex;justify-content:space-between;padding:14px 0;border-top:1px solid var(--darkline);font-size:14px}.links a:last-child{border-bottom:1px solid var(--darkline)}
+.footer{margin-top:95px;padding-top:18px;border-top:1px solid var(--darkline);display:flex;justify-content:space-between;color:#788685;font-size:9px;letter-spacing:.12em;text-transform:uppercase}
+
+/* RESPONSIVE */
+@media(max-width:820px){
+  .wrap{width:min(var(--max),calc(100% - 34px))}
+  nav{height:66px}.navlinks{gap:14px}
+  .hero{padding:115px 0 120px;min-height:100svh}.hero-grid,.entry-grid,.section-head,.base-grid,.contact-grid{grid-template-columns:1fr;gap:40px}
+  .hero-note{margin-left:16%;max-width:280px}
+  .surface-caption{font-size:8px}
+  .entry-grid{min-height:115vh;padding:100px 0}.depth-index{padding-top:0}
+  .entry-copy{margin-left:16%}
+  .section-head{margin-bottom:65px}
+  .finding,.finding:nth-child(even){grid-template-columns:35px 1fr;gap:15px;padding:35px 0;min-height:0;margin-bottom:35px}
+  .finding:nth-child(even) .finding-copy,.finding:nth-child(even) .finding-image{grid-column:auto;grid-row:auto}
+  .finding-copy{grid-column:2}.finding-image{grid-column:2;min-height:220px;margin-top:8px}
+  .ecosystem{padding-bottom:95px}
+  .deep-statement{margin:75px auto 25px}
+  .base{min-height:920px;padding:95px 0 85px;background-position:center 44%}.base-grid{grid-template-columns:1fr;gap:30px}.thinking{margin-top:95px;padding-bottom:70px}.steps{font-size:22px;gap:11px 20px}.steps span:after{margin-left:18px}.contact{padding:0 0 38px}.contact-grid{grid-template-columns:1fr;gap:36px;padding-top:70px}.footer{margin-top:70px}
+}
+@media(max-width:500px){
+  .hero h1{font-size:clamp(49px,15vw,70px)}
+  .quote{font-size:41px}.finding h3{font-size:33px}
+  .hero .scene-photo{background-position:56% center}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<nav class="wrap" aria-label="Navegación principal">
+  <a class="mark" href="#inicio" aria-label="Mariana Rodríguez">MR</a>
+  <div class="navlinks">
+    <a href="#perspectivas">Perspectivas</a>
+    <a href="#como-pienso">Cómo pienso</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+</nav>
+
+<main id="inicio" class="ocean">
+
+<section class="scene hero" aria-labelledby="hero-title">
+  <div class="scene-photo" role="img" aria-label="Superficie del océano con olas"></div>
+  <div class="scene-shade"></div>
+  <div class="wrap scene-copy hero-grid">
+    <div>
+      <div class="eyebrow">Mariana Rodríguez · Growth · Strategy · Marketing · Business</div>
+      <h1 id="hero-title">Para entender el <em>crecimiento</em>, primero hay que entender el sistema.</h1>
+      <p class="hero-intro">Analizo negocios, experiencias, estrategias y productos buscando aquello que no siempre es evidente a primera vista.</p>
+    </div>
+    <div class="hero-note"><strong>01 · Superficie</strong>Lo primero que vemos: campañas, productos, comunicación, resultados. El recorrido empieza aquí.</div>
+  </div>
+  <div class="wrap surface-caption" aria-hidden="true"><span>Superficie</span><span>↓ Entrar al agua</span></div>
+</section>
+
+<section class="scene entry" aria-labelledby="descent-title">
+  <div class="scene-photo" role="img" aria-label="Buzo explorando un arrecife de coral"></div>
+  <div class="scene-shade"></div>
+  <div class="light-rays" aria-hidden="true"></div>
+  <div class="wrap scene-copy entry-grid">
+    <div class="depth-index">02 · Descenso</div>
+    <div>
+      <h2 class="quote" id="descent-title">Lo que ocurre en la <em>superficie</em> rara vez se explica solamente en la superficie.</h2>
+      <p class="entry-copy">Al entrar en el agua aparecen otras señales. Comportamientos, relaciones, restricciones y conexiones que desde arriba no eran visibles.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ecosystem" id="perspectivas" aria-labelledby="perspectives-title">
+  <div class="eco-photo" aria-hidden="true"></div>
+  <div class="eco-atmosphere" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="section-head">
+      <div><div class="depth-index dark">03 · Ecosistema</div><h2 id="perspectives-title">Perspectivas</h2></div>
+      <p>Seis observaciones encontradas mientras descendemos: algo visible arriba que empieza a revelar otras partes del sistema.</p>
+    </div>
+
+    <div class="findings">
+      <article class="finding">
+        <div class="finding-number">01</div>
+        <div class="finding-copy">
+          <a class="finding-company" href="https://www.linkedin.com/posts/mariana-rodriguez-arias_growthmarketing-emailstrategy-customerexperience-activity-7391619840962359296-recw?utm_medium=ios_app&rcm=ACoAACeE01wBsUDvkDo56Wf7N5HZ79R7ziZlbSs&utm_source=social_share_send&utm_campaign=copy_link" aria-label="Ver Mis Propias Finanzas en LinkedIn">Mis Propias Finanzas ↗</a>
+          <h3>¿Y si el problema no fuera el mailing, sino la saturación de la base?</h3>
+          <p>Estrategia de mailing y saturación de una misma base de datos.</p>
+        </div>
+        <div class="finding-image image-1" role="img" aria-label="Cardumen concentrado frente a una red de pesca, metáfora de saturación y captura repetitiva"><a href="https://www.linkedin.com/posts/mariana-rodriguez-arias_growthmarketing-emailstrategy-customerexperience-activity-7391619840962359296-recw?utm_medium=ios_app&rcm=ACoAACeE01wBsUDvkDo56Wf7N5HZ79R7ziZlbSs&utm_source=social_share_send&utm_campaign=copy_link" target="_blank" rel="noopener noreferrer">Ver análisis ↗</a></div>
+      </article>
+
+      <article class="finding">
+        <div class="finding-number">02</div>
+        <div class="finding-copy">
+          <a class="finding-company" href="https://www.linkedin.com/posts/mariana-rodriguez-arias_growth-hiperpersonalizacion-activity-7394510588271284224-R4Pi?utm_medium=ios_app&rcm=ACoAACeE01wBsUDvkDo56Wf7N5HZ79R7ziZlbSs&utm_source=social_share_send&utm_campaign=copy_link" aria-label="Ver Laika en LinkedIn">Laika ↗</a>
+          <h3>Cuando una membresía repite la misma propuesta, ¿qué deja de escuchar?</h3>
+          <p>Segmentación, saturación en llamadas y propuesta de valor repetitiva para membresías.</p>
+        </div>
+        <div class="finding-image image-2" role="img" aria-label="Arrecife extraordinariamente diverso, con especies y colores diferentes, metáfora de segmentación y propuesta de valor"><a href="https://www.linkedin.com/posts/mariana-rodriguez-arias_growth-hiperpersonalizacion-activity-7394510588271284224-R4Pi?utm_medium=ios_app&rcm=ACoAACeE01wBsUDvkDo56Wf7N5HZ79R7ziZlbSs&utm_source=social_share_send&utm_campaign=copy_link" target="_blank" rel="noopener noreferrer">Ver análisis ↗</a></div>
+      </article>
+
+      <article class="finding">
+        <div class="finding-number">03</div>
+        <div class="finding-copy">
+          <a class="finding-company" href="https://www.linkedin.com/posts/mariana-rodriguez-arias_monetizaciaejn-activity-7395068022010568704-TF82?utm_medium=ios_app&rcm=ACoAACeE01wBsUDvkDo56Wf7N5HZ79R7ziZlbSs&utm_source=social_share_send&utm_campaign=copy_link" aria-label="Ver Trendy en LinkedIn">Trendy ↗</a>
+          <h3>Una campaña de branding también habla de quién la representa y cómo se gobierna.</h3>
+          <p>“Aventuras en Pañales”, campaña creativa, vocería de Camila como CEO y gobierno de marca.</p>
+        </div>
+        <div class="finding-image image-3" role="img" aria-label="Gran extensión de mar y cardúmenes coloridos, metáfora de expansión, escala y crecimiento"><a href="https://www.linkedin.com/posts/mariana-rodriguez-arias_monetizaciaejn-activity-7395068022010568704-TF82?utm_medium=ios_app&rcm=ACoAACeE01wBsUDvkDo56Wf7N5HZ79R7ziZlbSs&utm_source=social_share_send&utm_campaign=copy_link" target="_blank" rel="noopener noreferrer">Ver análisis ↗</a></div>
+      </article>
+
+      <article class="finding">
+        <div class="finding-number">04</div>
+        <div class="finding-copy">
+          <a class="finding-company" href="#" aria-label="Ver IA en LinkedIn">IA ↗</a>
+          <h3>¿Puede la tecnología escalar algo que todavía no tiene procesos ni metodología?</h3>
+          <p>IA / equipos de trabajo · tecnología, equipos, procesos y estructura como parte de la escalabilidad.</p>
+        </div>
+        <div class="finding-image image-4" role="img" aria-label="Buzo explorando un ecosistema marino, observación científica y metodología"><a href="https://vt.tiktok.com/ZSqAuPmrw/" target="_blank" rel="noopener noreferrer">Ver análisis ↗</a></div>
+      </article>
+
+      <article class="finding">
+        <div class="finding-number">05</div>
+        <div class="finding-copy">
+          <a class="finding-company" href="https://vt.tiktok.com/ZSqAcvDmf/" aria-label="Ver Juan Valdez en TikTok">Juan Valdez ↗</a>
+          <h3>Cuando la experiencia digital falla, ¿qué tan lejos está de las decisiones del negocio?</h3>
+          <p>Experiencia de usuario en la app y desconexión con las franquicias.</p>
+        </div>
+        <div class="finding-image image-5" role="img" aria-label="Zona de arrecife submarino"><a href="https://vt.tiktok.com/ZSqAcvDmf/" target="_blank" rel="noopener noreferrer">Ver análisis ↗</a></div>
+      </article>
+
+      <article class="finding">
+        <div class="finding-number">06</div>
+        <div class="finding-copy">
+          <a class="finding-company" href="https://www.linkedin.com/posts/mariana-rodriguez-arias_aprendizajes-growth-pymes-activity-7399952918612692992-72Y5?utm_medium=ios_app&rcm=ACoAACeE01wBsUDvkDo56Wf7N5HZ79R7ziZlbSs&utm_source=social_share_send&utm_campaign=copy_link" aria-label="Ver Ruby Rose en LinkedIn">Ruby Rose ↗</a>
+          <h3>Cuando el packaging promete una experiencia, ¿qué pasa si el producto no alcanza esa promesa?</h3>
+          <p>Calendario de adviento, producto, sostenibilidad, precio, competencia, temporalidad y expectativas.</p>
+        </div>
+        <div class="finding-image image-6" role="img" aria-label="Embarcación pequeña junto a un gran crucero, metáfora de contraste entre expectativa y realidad"><a href="https://www.linkedin.com/posts/mariana-rodriguez-arias_aprendizajes-growth-pymes-activity-7399952918612692992-72Y5?utm_medium=ios_app&rcm=ACoAACeE01wBsUDvkDo56Wf7N5HZ79R7ziZlbSs&utm_source=social_share_send&utm_campaign=copy_link" target="_blank" rel="noopener noreferrer">Ver análisis ↗</a></div>
+      </article>
+    </div>
+
+    <p class="deep-statement">A medida que crece un negocio, también crece la complejidad del sistema que lo sostiene.</p>
+  </div>
+</section>
+
+<section class="base" id="como-pienso" aria-labelledby="base-title">
+  <div class="wrap base-content">
+    <div class="base-grid">
+      <div><div class="depth-index">04 · Base</div><h2 class="base-title" id="base-title">Lo que sostiene el <em>resultado</em> está debajo de lo evidente.</h2></div>
+      <p class="base-copy">Entender lo profundo para hacer visible lo que condiciona el resultado.</p>
+    </div>
+
+    <div class="thinking">
+      <strong>Cómo pienso</strong>
+      <p class="thinking-copy">Observo la superficie, hago preguntas, desarmo el problema y busco conexiones en el ecosistema del negocio para entender qué está condicionando el resultado y llevarlo a la superficie.</p>
+      <div class="steps" aria-label="Cinco formas de abordar un problema">
+        <span>Observo la superficie</span>
+        <span>Hago preguntas</span>
+        <span>Desarmo el problema</span>
+        <span>Busco conexiones</span>
+        <span>Identifico oportunidades</span>
+      </div>
+    </div>
+
+    <div class="profile-strip">
+      <strong>17+ años</strong><span>B2B</span><span>B2C</span><span>E-commerce</span><span>Growth</span><span>Marketing</span><span>Data</span><span>Tecnología</span><span>Experiencia de cliente</span><span>Estrategia</span>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contacto" aria-labelledby="contact-title">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div>
+        <div class="eyebrow contact-eyebrow">05 · Volver a la superficie</div>
+        <h2 id="contact-title">Una manera diferente de <em>navegar los negocios.</em></h2>
+      </div>
+      <div>
+        <div class="links">
+          <a href="https://www.linkedin.com/in/mariana-rodriguez-arias" aria-label="LinkedIn"><span>LinkedIn</span><span>↗</span></a>
+          <a href="https://www.tiktok.com/@growthconmar?_r=1&_t=ZS-99bPeubinO3" aria-label="TikTok"><span>TikTok</span><span>↗</span></a>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <span>Mariana Rodríguez</span>
+      <span>Growth · Strategy · Marketing · Business</span>
+    </footer>
+  </div>
+</section>
+
+</body>
+</html>
